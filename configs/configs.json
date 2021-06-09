@@ -1,0 +1,13 @@
+{
+  "dbpath":"db",
+  "microservice":{
+    "title":"reuters",
+    "domain":"www.reuters.com",
+    "url":[
+      "https://cn.reuters.com/assets/jsonWireNews?limit=100"
+    ],
+    "addr":":10007",
+    "timeout":"1s",
+    "heartbeat":"5m"
+  }
+}
