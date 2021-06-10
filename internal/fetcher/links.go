@@ -16,7 +16,7 @@ func fetchLinks() ([]string, error) {
 	rt := []string{}
 
 	for _, rawurl := range configs.Data.MS.URL {
-		links, err := getLinks(rawurl)
+		links, err := getLinksJson(rawurl)
 		if err != nil {
 			return nil, err
 		}
